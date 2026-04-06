@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Josephina Iyambo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+ 
+<nav>
+  <div class="nav-logo">Josephina Iyambo</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+ 
+
+<section id="about">
+  <div class="label">About Me</div>
+  <h2>Hi, I'm Josephina 👋</h2>
+  <div class="divider"></div>
+  <div class="about-grid">
+    <div class="about-photo-wrap">
+      <div class="about-photo" id="profilePhoto">
+  <img src="images/picture.png" alt="Josephina">
+</div>
+    </div>
+    <div class="about-text">
+     <p>I'm a passionate <strong>full-stack developer</strong> who loves building clean, 
+interactive web experiences. I believe software should bring people together, educate, 
+and genuinely improve quality of life.</p>
+
+<p>I focus on writing readable, maintainable code and creating UIs that feel great to 
+use. I love seeing projects come to life and constantly challenge myself to explore new 
+languages and frameworks.</p>
+
+<p>Outside of tech, you'll find me lost in African literature, staying active, or 
+fellowshipping with other believers. Currently open to opportunities where I can grow, 
+collaborate, and build something meaningful.</p>
+      <p>🌍 Windhoek &nbsp;|&nbsp; 🎓 <a href="https://www.unam.edu.na">UNAM</a> | <a href="https://code-blossom.notion.site/Full-Stack-Certification-f3ac2e33ec0846f098afeed39f10701f">Code Blossom Academy</a> &nbsp;|&nbsp; 💼 Open to work</p>
+<a href="CV.pdf" download class="cv-btn">Download CV</a>
+    </div>
+  </div>
+</section>
+ 
+
+<section id="skills">
+  <div class="inner">
+    <div class="label">Tech Stack</div>
+    <h2>Languages &amp; Frameworks</h2>
+    <div class="divider"></div>
+    <div class="skills-grid" id="skillsGrid">
+      
+    </div>
+  </div>
+</section>
+ 
+
+<section id="projects">
+  <div class="label">Work</div>
+  <h2>Projects</h2>
+  <div class="divider"></div>
+  <div class="projects-grid" id="projectsGrid">
+  
+  </div>
+</section>
+ 
+
+<section id="contact">
+  <div class="inner">
+    <div class="label">Get In Touch</div>
+    <h2>Contact Me</h2>
+    <div class="divider"></div>
+    <div class="contact-grid">
+      <div>
+        <p style="margin-bottom:1.5rem">Have a project in mind or just want to say hi? Fill out the form or reach out directly.</p>
+        <div class="contact-info">
+          <div class="contact-row">
+            <span class="ico">📧</span>
+            <div><div class="ct">josephinaiyambo05@gmail.com</div><div class="cl">Email</div></div>
+          </div>
+          <div class="contact-row">
+  <span class="ico">🐙</span>
+  <div>
+    <a href="https://github.com/josephinaiyambo" target="_blank" class="ct">
+      github.com/josephinaiyambo
+    </a>
+    <div class="cl">GitHub</div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+      <form id="contactForm" novalidate>
+        <div class="row2">
+          <div class="field">
+            <label for="f-name">Name</label>
+            <input type="text" id="f-name" placeholder="Josephina Iyambo"/>
+            <span class="emsg" id="e-name"></span>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input type="email" id="f-email" placeholder="josephinaiyambo05@gmail.com"/>
+            <span class="emsg" id="e-email"></span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-msg">Message</label>
+          <textarea id="f-msg" rows="5" placeholder="Tell me about your project…"></textarea>
+          <span class="emsg" id="e-msg"></span>
+        </div>
+        <button type="submit" class="btn-submit">Send Message →</button>
+        <div class="success-msg" id="successMsg">✅ Message sent! I'll get back to you as soon as I can.</div>
+      </form>
+    </div>
+  </div>
+</section>
+ 
+<footer>
+  © <span id="yr"></span> JosephinaIyambo
+</footer>
+ 
+<script src="JavaScript.js"></script>
+</body>
+</html>
