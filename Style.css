@@ -398,3 +398,16 @@ border: 1px solid #e5e7eb;
   background: #1d4fd8ad;
   transform: translateY(-2px);
 }
+.upcoming-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  background: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #bfdbfe;
+  padding: 0.25rem 0.7rem;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin-left: 0.6rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
