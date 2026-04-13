@@ -97,27 +97,29 @@ collaborate, and build something meaningful.</p>
           </div>
         </div>
       </div>
-      <form id="contactForm" novalidate>
-        <div class="row2">
-          <div class="field">
-            <label for="f-name">Name</label>
-            <input type="text" id="f-name" placeholder="Josephina Iyambo"/>
-            <span class="emsg" id="e-name"></span>
-          </div>
-          <div class="field">
-            <label for="f-email">Email</label>
-            <input type="email" id="f-email" placeholder="josephinaiyambo05@gmail.com"/>
-            <span class="emsg" id="e-email"></span>
-          </div>
-        </div>
-        <div class="field">
-          <label for="f-msg">Message</label>
-          <textarea id="f-msg" rows="5" placeholder="Tell me about your project…"></textarea>
-          <span class="emsg" id="e-msg"></span>
-        </div>
-        <button type="submit" class="btn-submit">Send Message →</button>
-        <div class="success-msg" id="successMsg">✅ Message sent! I'll get back to you as soon as I can.</div>
-      </form>
+      <form id="contactForm" action="https://formsubmit.co/josephinaiyambo05@gmail.com" method="POST" novalidate>
+  <input type="hidden" name="_subject" value="New message from your Portfolio!">
+  <input type="hidden" name="_captcha" value="false">
+  <div class="row2">
+    <div class="field">
+      <label for="f-name">Name</label>
+      <input type="text" id="f-name" name="name" placeholder="Josephina Iyambo"/>
+      <span class="emsg" id="e-name"></span>
+    </div>
+    <div class="field">
+      <label for="f-email">Email</label>
+      <input type="email" id="f-email" name="email" placeholder="josephinaiyambo05@gmail.com"/>
+      <span class="emsg" id="e-email"></span>
+    </div>
+  </div>
+  <div class="field">
+    <label for="f-msg">Message</label>
+    <textarea id="f-msg" name="message" rows="5" placeholder="Tell me about your project…"></textarea>
+    <span class="emsg" id="e-msg"></span>
+  </div>
+  <button type="submit" class="btn-submit">Send Message →</button>
+  <div class="success-msg" id="successMsg">✅ Message sent! I'll get back to you as soon as I can.</div>
+</form>
     </div>
   </div>
 </section>
